@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from "react";
+import { Router } from "react-router";
 
 import ItemDetail from "../ItemDetail/ItemDetail";
+
 
 
 
@@ -62,6 +64,7 @@ useEffect(()=>{
 
     return (
         
+	
         <div className="detail-container mt-5">
             { infoProduct && <ItemDetail data={infoProduct }/>}
         </div>
