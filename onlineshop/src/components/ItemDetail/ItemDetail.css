@@ -1,0 +1,36 @@
+/* PAGINA 2*/
+
+/* PAGINA 2 MENU GUIA*/
+
+.menuguia{
+	margin-top: 2rem;
+	margin-left: 4.5rem;
+}
+
+/* PAGINA 2 PRESENTACION*/
+
+.presentacion{
+	margin-top: 2rem;
+}
+
+/* PAGINA 2 PRECIO*/
+
+.precio{
+	margin-top: 7rem;
+}
+
+.lista{
+	margin-top: 1rem;
+	margin-left: -1.5rem;
+}
+
+.juan a:hover{
+	text-decoration: none;
+}
+
+.devolucion{
+	background-color: #e8e2d6;
+	margin-top: -0.5rem;
+	margin-right: auto;
+	margin-left: auto;
+}

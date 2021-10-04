@@ -1,0 +1,11 @@
+.carta{
+    float: left;
+    margin: auto;
+    display: block;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 10px;
+}
+
+.carta:hover{
+    box-shadow: 5px 5px 5px 5px rgba(27, 27, 27, 0.2);
+}
