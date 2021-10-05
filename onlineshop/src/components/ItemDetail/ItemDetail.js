@@ -4,16 +4,6 @@ import '../ItemDetail/ItemDetail.css'
 import {useParams} from "react-router-dom";
 
 function ItemDetail(props) {
-const {id} = useParams();
-
-
-useEffect((infoProduct) =>{
-
-infoProduct && infoProduct.filter((product => product.id === id))
-    
-})
-
-
 
 
     return (

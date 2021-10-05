@@ -1,26 +1,50 @@
-const data = [{
+export default  [{
     id: '1',
     title: 'Remera Nike',
     description:'aaaaa aas sdasd assd',
     price: 1300,
     stock:5,
-    pictureUrl: '',
+    pictureUrl: 'https://solodeportes-9bvc3m9qgmf6g9x.stackpathdns.com/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/5/1/510020ck2379010-1.jpg',
     category:'remera'
   },
   {id: '2',
-    title: 'Campera Adidas',
+    title: 'Campera Nike',
     description:'aaaaa aas sdasd assd',
     price: 1200,
     stock:10,
-    pictureUrl: '',
+    pictureUrl: 'https://solodeportes-9bvc3m9qgmf6g9x.stackpathdns.com/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/c/a/campera-con-capucha-nike-print-mujer-gris-510020cj2022050-1.jpg',
     category:'campera'
   }, 
   { id: '3',
-  title: 'Remera Puma',
+  title: 'Zapatilla Nike',
   description:'aaaaa aas sdasd assd',
   price: 300,
   stock:15,
-  pictureUrl: '',
+  pictureUrl: 'https://cdn.shopify.com/s/files/1/1161/3498/products/11-2_1_5723f2b6-71ae-496d-8476-0a7362e5e3cc_medium.progressive.png.jpg',
   category:'zapatilla'
+},
+{id: '4',
+title: 'Campera Nike',
+description:'aaaaa aas sdasd assd',
+price: 1200,
+stock:10,
+pictureUrl: 'https://solodeportes-9bvc3m9qgmf6g9x.stackpathdns.com/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/c/a/campera-con-capucha-nike-print-mujer-gris-510020cj2022050-1.jpg',
+category:'campera'
+}, 
+{ id: '5',
+title: 'Zapatilla Nike',
+description:'aaaaa aas sdasd assd',
+price: 300,
+stock:15,
+pictureUrl: 'https://cdn.shopify.com/s/files/1/1161/3498/products/11-2_1_5723f2b6-71ae-496d-8476-0a7362e5e3cc_medium.progressive.png.jpg',
+category:'zapatilla'
+},
+{id: '6',
+title: 'Remera Nike',
+description:'aaaaa aas sdasd assd',
+price: 1300,
+stock:5,
+pictureUrl: 'https://solodeportes-9bvc3m9qgmf6g9x.stackpathdns.com/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/5/1/510020ck2379010-1.jpg',
+category:'remera'
 }
 ]
