@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route, Redirect, Link} from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
 
 import './App.css';
 import Footer from './components/Footer/Footer';
@@ -19,17 +19,18 @@ import Items from './components/Pages/Items/Items';
         
         <Switch>
           
-          <Route exact path="/">
-              {/* <Home/> */}
-                <Home/>
-          </Route>
 
-          <Route exact path="/category/:id">
+          <Route exact path="/category/:category">
             <Categories/>
           </Route>
 
           <Route exact path="/item/:id">
             <Items></Items>
+          </Route>
+
+          <Route exact path="/">
+              {/* <Home/> */}
+                <Home/>
           </Route>
 
           {/* PARA MOSTRAR SI ALGUNA DE LAS RUTAS NO EXISTE */}
