@@ -31,10 +31,10 @@ function Footer() {
             Consultar precios</p>
         </div>
         <div className="col-12 col-xl-4 iconos-footer mt-3">
-          <a href=""> <img src={img4} alt=""/></a>
-          <a href="" target="_blank"> <img src={img3} alt=""/></a>
-          <a href="" target="_blank"> <img src={img2} alt=""/></a>
-          <a href="" target="_blank"> <img src={img1} alt=""/></a>
+          <a href="#"> <img src={img4} alt=""/></a>
+          <a href="#" target="_blank"> <img src={img3} alt=""/></a>
+          <a href="#" target="_blank"> <img src={img2} alt=""/></a>
+          <a href="#" target="_blank"> <img src={img1} alt=""/></a>
         </div>
       </div>
     

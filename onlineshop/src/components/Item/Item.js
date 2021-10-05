@@ -2,7 +2,7 @@ import React from 'react'
 import ItemCount from '../ItemCount/ItemCount'
 import { Link } from 'react-router-dom'
 import '../Item/Item.css';
-import ItemDetailContainer from '../ItemDetailContainer/ItemDetailContainer';
+
 
 const Item = ({
   id,

@@ -1,12 +1,35 @@
-import React from 'react';
-import { BrowserRouter, Switch, Route, Redirect, Link} from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { Link, NavLink, useParams } from "react-router-dom";
+ import Data from "../../Data/Data";
+ import ItemList from '../../ItemList/ItemList'
+
+function Categories() {
+  const [infoProduct,setInfoProduct] = useState()
+  const {category} = useParams();
+  console.log("use params category : ", category)
+  const getProduct = new Promise ((resolve)=>{
+
+    setTimeout(()=>{
+        resolve(Data)
+    },2000)
+})
+
+useEffect(()=>{
+    getProduct.then((response)=>{
+        setInfoProduct(response)
+        setInfoProduct(response.map(product => product.category === category))
+    })
+},[])
 
 
-
-  function Categories() {
     
+
+
     return (
-      <> </>
+      <>
+      <ItemList data={infoProduct}/>
+
+    </>
     );
   }
 

@@ -1,12 +1,11 @@
 import React, {useState,useEffect} from 'react'
 import Item from '../Item/Item';
-import { useParams } from "react-router";
 import data from '../Data/Data'
 
 
 const ItemList = () => {
   const [products,setProducts]= useState([])
-  const {catId} = useParams ()  
+
 
           const listProducts = new Promise((resolve) => {
           setTimeout(() => {
