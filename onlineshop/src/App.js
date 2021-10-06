@@ -28,6 +28,10 @@ import Items from './components/Pages/Items/Items';
             <Items></Items>
           </Route>
 
+          <Route exact path="/cart">
+            
+          </Route>
+
           <Route exact path="/">
               {/* <Home/> */}
                 <Home/>

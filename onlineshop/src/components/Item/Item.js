@@ -15,13 +15,13 @@ const Item = ({
 
 
     <div className="carta col-4 mb-5" >
-       <Link to={`item/${id}`}><img src={pictureUrl} alt="imagen"/></Link>
+       <img src={pictureUrl} alt="imagen"/>
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p>{description}</p>
           <b><p className="card-text">$ {price} .-</p></b>
           <p>Stock: {stock}</p>  
-          <ItemCount stock={stock}/>               
+          <Link to={`item/${id}`}><button className="btn btn-outline-dark">Comprar</button></Link>            
         </div>
     </div>
 
