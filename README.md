@@ -2,7 +2,10 @@
 
 ​
 OnlineShop es un e-commerce dedicado a la venta de ropa deportiva.
-​
+
+## Aplicación en funcionamiento
+​![OnlineShop](https://user-images.githubusercontent.com/78376278/136219538-4ef56ad9-ea60-4e32-bfa6-c008b93841dc.gif)
+
 ​
 ## Instalación
 ​
@@ -14,15 +17,14 @@ OnlineShop es un e-commerce dedicado a la venta de ropa deportiva.
    npm install
    ```
 ​
-    para instalar todas las dependecias del proyecto
 ​
-3. Usá 
+3.  para instalar todas las dependecias del proyecto usá 
 ​
    ```
    npm start
    ```
 ​
-    para correr el proyecto, que estará disponible en http://localhost:3000
+4. para correr el proyecto, que estará disponible en http://localhost:3000
 ​
 ​
 ​
@@ -30,14 +32,15 @@ OnlineShop es un e-commerce dedicado a la venta de ropa deportiva.
 ​
 Uso de Bootstrap para dar formato a la aplicación.
 ​
-Uso de React Router Dom para la navegación
+Uso de React Router Dom para la navegación.
+​
+Uso de FontAwesome para icons.
 ​
 ​
 ​
+
 ​
-## Aplicación en funcionamiento
-​
-![OnlineShop en funcionamiento]()
+
 ​
 ### Autor
 ​
