@@ -1,11 +1,12 @@
 import React, {useState,useEffect} from 'react'
 import Item from '../Item/Item';
 import data from '../Data/Data'
+import { useParams } from 'react-router';
 
 
 const ItemList = () => {
   const [products,setProducts]= useState([])
-
+  const {category} = useParams();
 
           const listProducts = new Promise((resolve) => {
           setTimeout(() => {
@@ -16,14 +17,20 @@ const ItemList = () => {
       });
 
 
-useEffect(() => {
+      useEffect(() => {
 
-  listProducts.then((res) => {
-    console.log('respuesta: ', res);
-  setProducts(res);
-  });
+        listProducts.then((res) => {
+          console.log('respuesta: ', res);
+          if(category) {
+            setProducts(res.filter(product => product.category === category));
+          }else{
+            setProducts(res)
+          }
+        });
+      
+      }, [category])
 
-}, [])
+
           
 
 

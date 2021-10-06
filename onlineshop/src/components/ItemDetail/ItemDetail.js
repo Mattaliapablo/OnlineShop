@@ -1,9 +1,11 @@
 import React from "react";
+import { useParams } from "react-router";
 import ItemCount from "../ItemCount/ItemCount";
-import '../ItemDetail/ItemDetail.css'
+
 
 
 function ItemDetail(props) {
+
 
     return (
 <>

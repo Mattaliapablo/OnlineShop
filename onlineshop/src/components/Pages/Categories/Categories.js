@@ -17,9 +17,9 @@ function Categories() {
 useEffect(()=>{
     getProduct.then((response)=>{
         setInfoProduct(response)
-        setInfoProduct(response.map(product => product.category === category))
+        setInfoProduct(response.filter(product => product.category === category))
     })
-},[])
+},[category])
 
 
     
